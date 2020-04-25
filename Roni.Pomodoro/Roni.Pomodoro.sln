@@ -5,6 +5,12 @@ VisualStudioVersion = 16.0.29519.87
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roni.Pomodoro.Api", "Roni.Pomodoro.Api\Roni.Pomodoro.Api.csproj", "{F6E369FD-D136-4CF2-BA3C-9B8B548ED0F2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roni.Pomodoro.Persistence", "Roni.Pomodoro.Persistence\Roni.Pomodoro.Persistence.csproj", "{A9C6F620-EADE-4A00-B679-8659DC06BDE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roni.Pomodoro.Services", "Roni.Pomodoro.Services\Roni.Pomodoro.Services.csproj", "{745892E6-B14A-44F4-A5A8-406AFAF43EEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roni.Pomodoro.Shared", "Roni.Pomodoro.Shared\Roni.Pomodoro.Shared.csproj", "{13773AA7-2D5F-4D54-9772-6D4FD4DACF40}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{F6E369FD-D136-4CF2-BA3C-9B8B548ED0F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6E369FD-D136-4CF2-BA3C-9B8B548ED0F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6E369FD-D136-4CF2-BA3C-9B8B548ED0F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9C6F620-EADE-4A00-B679-8659DC06BDE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9C6F620-EADE-4A00-B679-8659DC06BDE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9C6F620-EADE-4A00-B679-8659DC06BDE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9C6F620-EADE-4A00-B679-8659DC06BDE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{745892E6-B14A-44F4-A5A8-406AFAF43EEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{745892E6-B14A-44F4-A5A8-406AFAF43EEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{745892E6-B14A-44F4-A5A8-406AFAF43EEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{745892E6-B14A-44F4-A5A8-406AFAF43EEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13773AA7-2D5F-4D54-9772-6D4FD4DACF40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13773AA7-2D5F-4D54-9772-6D4FD4DACF40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13773AA7-2D5F-4D54-9772-6D4FD4DACF40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13773AA7-2D5F-4D54-9772-6D4FD4DACF40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
